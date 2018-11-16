@@ -24,6 +24,7 @@ defmodule SampleApp.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:db_connection, git: "https://github.com/elixir-ecto/db_connection.git", branch: "jv-after-connect-timeout", override: true},
       {:postgrex, "~> 0.13"},
       {:jason, "~> 1.1"},
       {:ecto_sql, "~> 3.0"}
